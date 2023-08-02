@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45"
+   height="45"
+   version="1.0"
+   id="svg18"
+   sodipodi:docname="face.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.5234375"
+     inkscape:cx="-8.3219814"
+     inkscape:cy="55.678019"
+     inkscape:window-width="1600"
+     inkscape:window-height="826"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs8">
+    <linearGradient
+       id="a">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity="0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#a"
+       id="b"
+       x1="-344.15295"
+       x2="-395.84943"
+       y1="274.711"
+       y2="425.39993"
+       gradientTransform="matrix(-0.59146003,0,0,0.59146003,-163.62039,-176.11159)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <rect
+     width="45"
+     height="45"
+     x="-45"
+     y="2.6442626e-07"
+     fill="#0037c1"
+     fill-rule="evenodd"
+     rx="6.766685"
+     ry="6.766685"
+     transform="scale(-1,1)"
+     id="rect10"
+     style="stroke-width:0.190678" />
+  <path
+     fill="#ffffff"
+     d="M 30.680206,40.071112 H 23.420445 V 22.356107 H 19.793482 V 16.25118 h 3.626963 v -3.665376 c 0,-4.9803887 2.048013,-7.941936 7.866655,-7.941936 h 4.844183 v 6.105619 h -3.027959 c -2.265052,0 -2.41489,0.853168 -2.41489,2.445428 l -0.0082,3.055574 h 5.485365 l -0.641868,6.104927 h -4.843497 z"
+     id="path14"
+     style="stroke-width:0.190678" />
+</svg>
