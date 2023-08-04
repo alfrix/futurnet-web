@@ -41,10 +41,14 @@ h1, h2, h3, h4 {
 
 }
 
+img {
+    max-width: 100%;
+}
+
 /* header */
 header{
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100px, rgba(0,68,170,1) 100%); 
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100px, rgba(0,68,170,1) 100%);
     padding: 1rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
@@ -111,10 +115,11 @@ main section div label {
 }
 
 main section ul {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 main section ul * {
@@ -124,7 +129,7 @@ main section ul * {
 
 main section ul li{
     margin: 0.2rem;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -157,7 +162,7 @@ main section ul li a:hover{
 main section ul li:hover {
     transform: translate(0, -5px);
     transition: transform .3s ease-out;
-}  
+}
 
 main section ul li a img {
     width: 80%;
@@ -373,6 +378,10 @@ footer div a:hover {
     width: 90%;
 }
 
+.accordion-body img {
+    margin: 0;
+}
+
 .accordion-button {
     color: white;
 }
@@ -399,7 +408,7 @@ footer div a:hover {
 
 .navbar-toggler {
     font-size: xx-large;
-    border: 0; 
+    border: 0;
     background-color: none;
     box-shadow: none;
 }
@@ -416,7 +425,7 @@ footer div a:hover {
     color: white;
     transform: translate(5px, 0px);
     transition: transform .2s ease-out;
-}  
+}
 
 .nav-item a:hover {
     color: white;
@@ -477,10 +486,36 @@ footer div a:hover {
         position: static;
     }
 
-    main section {
-        padding-left: .5rem;
-        padding-right: .5rem;
+    main section ul li a {
+        width: 8.5rem;
     }
+
+    .accordion div {
+        margin: 0rem;
+    }
+
+    .accordion-item {
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .accordion-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+
+    .accordion p {
+        padding: 3rem .5rem;
+    }
+
+    main section {
+        padding-left: .1rem;
+        padding-right: .1rem;
+        margin: 0;
+    }
+
     .opciones-contacto div{
         margin: .5rem;
     }
