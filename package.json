@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build-css": "sass --no-source-map scss/estilos.scss css/estilos.css",
+    "watch-css": "sass --no-source-map --watch scss/estilos.scss css/estilos.css"
+  },
+  "author": "Alfredo Monclus",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}

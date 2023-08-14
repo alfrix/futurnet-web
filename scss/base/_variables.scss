@@ -1,0 +1,8 @@
+$color-primario: #0044aa;
+$color-secundario: #c40000;
+
+@mixin flex ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

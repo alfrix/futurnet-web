@@ -1,0 +1,25 @@
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100px, $color-primario 100%);
+    padding: 1rem 2rem 0 2rem;
+    @include flex (center, center);
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    img {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        opacity: .9;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    nav{
+        a {
+            color: white;
+            padding: 1rem 1.75rem;
+        }
+    }
+}

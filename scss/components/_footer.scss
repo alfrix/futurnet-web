@@ -1,0 +1,23 @@
+footer {
+    font-weight: 100;
+    font-size: 0.65rem;
+    padding: 2rem;
+    margin: 2rem;
+    border: 0;
+    border-top: 2px;
+    border-color: white;
+    border-style: solid;
+    @include flex (space-around, center);
+    div {
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        a {
+            margin: 1rem;
+            opacity: 0.9;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

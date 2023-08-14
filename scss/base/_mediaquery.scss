@@ -1,0 +1,99 @@
+@media screen and (max-height:640px){
+    header, footer div {
+        position: static;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .banner{
+        height: 15vw;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .opciones-contacto {
+        grid-template-columns: repeat(2, 1fr) !important;
+        .personal {
+            grid-column: span 1;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .formulario {
+            grid-column: span 1;
+        }
+    }
+
+    .mapa {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .opciones-contacto {
+        display: flex;
+        flex-direction: column;
+        .formulario {
+            form {
+                flex-direction: column;
+                @include flex (space-around, center);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header, footer div {
+        position: static;
+    }
+
+    main { 
+        section {
+            padding-left: .1rem;
+            padding-right: .1rem;
+            margin: 0;
+            ul {
+                li {
+                    a {
+                    width: 8.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .accordion {
+        div {
+        margin: 0rem;
+        }
+        p {
+            padding: 3rem .5rem;
+        }
+    }
+
+    .accordion-item {
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .accordion-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .opciones-contacto {
+        div{
+            margin: .5rem;
+        }
+    }
+    .navbar {
+        width: 100%;
+    }
+}
