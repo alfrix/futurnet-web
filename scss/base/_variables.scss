@@ -2,12 +2,6 @@ $color-primario: #0044aa;
 $color-secundario: #c40000;
 $color-font: white;
 
-@mixin flex ($justify, $align){
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-}
-
 $font-weights: (
     "lightest": 100,
     "regular": 400,

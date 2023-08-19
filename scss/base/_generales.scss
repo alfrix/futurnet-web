@@ -89,3 +89,9 @@ textarea {
         background-color: rgba(0, 0, 0, 0.20);
     }
 }
+
+@mixin flex ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
