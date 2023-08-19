@@ -1,11 +1,11 @@
 footer {
-    font-weight: 100;
+    font-weight: map-get($font-weights, "lightest");
     font-size: 0.65rem;
     padding: 2rem;
     margin: 2rem;
     border: 0;
     border-top: 2px;
-    border-color: white;
+    border-color: $color-font;
     border-style: solid;
     @include flex (space-around, center);
     div {

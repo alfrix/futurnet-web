@@ -10,7 +10,7 @@ main {
         padding: .2rem;
         select {
             background-color: #121212;
-            color: white;
+            color: $color-font;
             border: 0;
         }
         .textarea {
@@ -45,7 +45,7 @@ main {
                 width: 100%;
             }
             select {
-                color: white;
+                color: $color-font;
                 padding: .2rem;
                 width: 100%;
             }
@@ -97,27 +97,33 @@ main {
     }
 }
 
-.inicio {
+.banner-inicio {
+    @extend %banner;
     background-image: url("../img/inicio.jpg");
 }
 
-.cobertura {
+.banner-cobertura {
+    @extend %banner;
     background-image: url("../img/cobertura.jpg");
 }
 
-.ayuda {
+.banner-ayuda {
+    @extend %banner;
     background-image: url("../img/ayuda.jpg");
 }
 
-.enlaces {
+.banner-enlaces {
+    @extend %banner;
     background-image: url("../img/enlaces.jpg");
 }
 
-.nuestra {
+.banner-nuestra {
+    @extend %banner;
     background-image: url("../img/nuestra.jpg");
 }
 
-.contacto {
+.banner-contacto {
+    @extend %banner;
     background-image: url("../img/contacto.jpg");
 }
 
@@ -144,7 +150,7 @@ main {
         background-color: rgb(41, 41, 41);
         border-radius: 1rem;
         padding-top: 2rem;
-        font-weight: 500;
+        font-weight: map-get($font-weights, "medium");
         font-size: x-large;
         width: 98%;
         height: 100%;
@@ -199,49 +205,15 @@ main {
 }
 
 .accordion-button {
-    color: white;
+    color: $color-font;
     h2 {
         margin-left: 3vw;
         font-size: x-large;
-        font-weight: bold;
+        font-weight: map-get($font-weights, "bold");
     }
 }
 .accordion-item{
     background-color: rgba(0,0,0,.5);
     border-radius: .5rem;
     border: 0;
-}
-
-.navbar, .navbar-expand-lg {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.navbar-collapse .nav-item {
-    margin: 1rem 0;
-}
-
-.navbar-toggler {
-    font-size: xx-large;
-    border: 0;
-    background-color: none;
-    box-shadow: none;
-    i:hover{
-        color: white;
-    }
-}
-
-.navbar-toggler:focus {
-    box-shadow: 0px 0px 4px white;
-}
-
-.nav-item{
-    &:hover {
-    color: white;
-    transform: translate(5px, 0px);
-    transition: transform .2s ease-out;
-    }
-    a:hover {
-        color: white;
-    }
 }
