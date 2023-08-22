@@ -20,6 +20,7 @@ footer {
             }
         }
         img{
+            min-width: 2rem;
             margin-top: 1.5rem;
             &:hover{
                 transform: scale(1.2);

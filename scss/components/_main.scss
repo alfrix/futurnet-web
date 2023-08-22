@@ -8,6 +8,7 @@ main {
         width: 100%;
         color: black;
         padding: .2rem;
+        padding-top: 0; 
         select {
             background-color: #121212;
             color: $color-font;
@@ -15,7 +16,6 @@ main {
         }
         .textarea {
             grid-column: span 2;
-            width: 100%;
         }
     }
     section {
@@ -43,6 +43,7 @@ main {
             padding: 1rem;
             input {
                 width: 100%;
+                color: black;
             }
             select {
                 color: $color-font;
@@ -160,7 +161,7 @@ main {
     p {
         padding: 1.5rem 1rem 0.5rem;
         line-height: 2.5rem;
-        min-width: 375px;
+        min-width: 350px;
     }
     img {
         width: 100%;
@@ -176,8 +177,7 @@ main {
     .formulario {
         .boton_form {
             grid-column: 2;
-            margin-bottom: 1rem;
-            padding-top: .5rem;
+            padding: 1rem;
         }
         div {
             margin: 0;
