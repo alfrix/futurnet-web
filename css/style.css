@@ -397,9 +397,14 @@ main section ul li:hover {
   margin: 0;
 }
 
-.mapa {
+.mapa-contacto {
   width: 50%;
   height: 450px;
+}
+
+.mapa-cobertura {
+  width: 80%;
+  height: 600px;
 }
 
 .collapsed {
@@ -485,7 +490,7 @@ footer div img:hover {
   .opciones-contacto .formulario {
     grid-column: span 1;
   }
-  .mapa {
+  .mapa-contacto, .mapa-cobertura {
     width: 100%;
   }
 }
