@@ -191,10 +191,6 @@ main section {
   align-items: center;
   flex-direction: column;
 }
-main section .nmegas {
-  font-size: xx-large;
-  color: black;
-}
 main section a {
   color: #0044aa;
 }
@@ -252,6 +248,71 @@ main section ul li a img {
 main section ul li:hover {
   transform: translate(0, -5px);
   transition: transform 0.3s ease-out;
+}
+
+.tarjetas-planes {
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px black;
+  margin: 1rem 0.75rem;
+}
+.tarjetas-planes ul {
+  display: flex;
+  flex-direction: column;
+}
+.tarjetas-planes ul li {
+  padding: 1.25rem 2rem;
+  color: black;
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+.tarjetas-planes ul li:first-child {
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+  background-color: #0044aa;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.tarjetas-planes ul li:first-child .nmegas, .tarjetas-planes ul li:first-child i {
+  font-size: xxx-large;
+  color: white;
+}
+.tarjetas-planes ul li:last-child {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.tarjetas-planes ul li:hover {
+  transform: none;
+  transition: none;
+}
+.tarjetas-planes ul li .nmegas {
+  margin-right: 0.5rem;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+}
+.tarjetas-planes ul li i {
+  font-size: larger;
+  color: #0044aa;
+  margin-right: 0.5rem;
+}
+.tarjetas-planes ul li a {
+  background-color: #0044aa;
+  color: white;
+  margin: 0;
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.tarjetas-planes ul li a:hover {
+  color: white;
+  font-size: larger;
+}
+.tarjetas-planes ul li a:active {
+  border: 0;
 }
 
 .banner-inicio {

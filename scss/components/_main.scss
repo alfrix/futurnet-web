@@ -38,10 +38,6 @@ main {
         padding: 1rem 2rem;
         @include flex (space-between, center);
         flex-direction: column;
-        .nmegas {
-            font-size: xx-large;
-            color: black;
-        }
         a {
             color: $color-primario
         }
@@ -93,6 +89,71 @@ main {
                 &:hover {
                     transform: translate(0, -5px);
                     transition: transform .3s ease-out;
+                }
+            }
+        }
+    }
+}
+
+.tarjetas-planes {
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px black;
+    margin: 1rem 0.75rem;
+    ul {
+        display: flex;
+        flex-direction: column;
+        li {
+            padding: 1.25rem 2rem;
+            color: black;
+            width: 100%;
+            margin: 0;
+            background-color: white;
+            &:first-child {
+                color:white;
+                font-size: larger;
+                font-weight: map-get($font-weights, "bold");
+                background-color: $color-primario;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .nmegas, i {
+                    font-size: xxx-large;
+                    color: $color-font;
+                }
+            }
+            &:last-child {
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                margin: 0;
+                padding: 0;
+            }
+            &:hover {
+                transform: none;
+                transition: none;
+            }
+            .nmegas {
+                margin-right: 0.5rem;
+                color: black;
+                font-size: larger;
+                font-weight: map-get($font-weights, "bold")
+            }
+            i {
+                font-size: larger;
+                color: $color-primario;
+                margin-right: 0.5rem;
+            }
+            a {
+                background-color: $color-primario;
+                color: $color-font;
+                margin: 0;
+                width: 100%;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                &:hover{
+                    color: $color-font;
+                    font-size: larger;
+                }
+                &:active{
+                    border: 0;
                 }
             }
         }
