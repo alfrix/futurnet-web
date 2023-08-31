@@ -300,19 +300,20 @@ main section ul li:hover {
   margin-right: 0.5rem;
 }
 .tarjetas-planes ul li a {
-  background-color: #0044aa;
-  color: white;
-  margin: 0;
-  width: 100%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border: 0.2rem solid #0044aa;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  width: 70%;
+  transition: ease-out 0.1s;
 }
 .tarjetas-planes ul li a:hover {
   color: white;
   font-size: larger;
+  background-color: #0044aa;
+  color: white;
 }
 .tarjetas-planes ul li a:active {
-  border: 0;
+  border: 0.2rem solid #0044aa;
 }
 
 .banner-inicio {
