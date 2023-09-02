@@ -365,6 +365,9 @@ main section ul li:hover {
   margin-top: 1rem;
   gap: 2rem;
 }
+.opciones-contacto a {
+  color: white;
+}
 .opciones-contacto div {
   background-color: rgb(41, 41, 41);
   border-radius: 1rem;

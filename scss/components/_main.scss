@@ -213,6 +213,9 @@ main {
     grid-auto-rows: min-content;
     margin-top: 1rem;
     gap: 2rem;
+    a {
+        color: white;
+    }
     div {
         background-color: rgb(41, 41, 41);
         border-radius: 1rem;
