@@ -340,6 +340,11 @@ main section ul li:hover {
   background-image: url("../img/contacto.jpg");
 }
 
+#categorias-enlaces i {
+  color: #0044aa;
+  font-size: x-large;
+}
+
 .flecha-arriba {
   font-size: xxx-large;
 }

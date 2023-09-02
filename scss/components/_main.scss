@@ -191,6 +191,13 @@ main {
     background-image: url("../img/contacto.jpg");
 }
 
+#categorias-enlaces {
+    i {
+        color: $color-primario ;
+        font-size: x-large;
+    }
+}
+
 .flecha-arriba {
     font-size: xxx-large;
 }
