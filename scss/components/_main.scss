@@ -95,6 +95,13 @@ main {
     }
 }
 
+.orden {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .tarjetas-planes {
     border-radius: 1rem;
     box-shadow: 3px 3px 3px black;

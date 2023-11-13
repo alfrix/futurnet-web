@@ -1,0 +1,34 @@
+[
+{
+    "bajada":100,
+    "subida":25,
+    "wifi":2,
+    "fibraoptica":true,
+    "cablemodem":false,
+    "instalacionGratis":true
+},
+{
+    "bajada":50,
+    "subida":10,
+    "wifi":2,
+    "fibraoptica":true,
+    "cablemodem":false,
+    "instalacionGratis":true
+},
+{
+    "bajada":20,
+    "subida":4,
+    "wifi":1,
+    "fibraoptica":true,
+    "cablemodem":false,
+    "instalacionGratis":true
+},
+{
+    "bajada":12,
+    "subida":2,
+    "wifi":0,
+    "fibraoptica":false,
+    "cablemodem":true,
+    "instalacionGratis":false
+}
+]
