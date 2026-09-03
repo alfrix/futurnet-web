@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /IMG
+Disallow: /stats
+Disallow: /beta
+Disallow: /Noticias

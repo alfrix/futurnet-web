@@ -1,0 +1,90 @@
+﻿a			{ text-decoration: none; }
+a:link		{ color: #999999; }
+a:visited	{ color: #999999; }
+a:active	{ color: red; }
+a:hover		{ color: red; }
+
+img			{ 
+	border: 0px solid; 
+	margin: 0.5em;
+}
+
+body {
+	text-align: center;
+	font-family: Arial,sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #fafafa;
+	width: 100%;
+}
+
+.TOP {
+	background-color: #0044AA;
+	vertical-align: middle;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0.3em;
+}
+.TOP_linkbar {
+	background-color: #003399;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.TOP_linkbar_cell {
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.TOP_linkbar_cell_active {
+	background-color: #fafafa;
+	color: gray;
+}
+	
+.ALF_GREY {
+	font-size: 1em;
+	line-height: 2.5em;
+	color: #666666;
+}
+
+.Bottom {
+	font-size: 10px;
+	line-height: 15px;
+	color: #666666;
+}
+
+.link_frame_BLK {
+	font-size: 1.2em;
+	line-height: 2em;
+	font-weight: bold;
+	color: #666666;
+	width: 100%;
+	text-align: center;
+}
+
+.links_headers{
+	height:1em;
+	line-height: 2em;
+}
+
+.links_2{
+	height:7em;
+}
+.links_3{
+	height:5em;
+}
+.links_4{
+	height:3.5em;
+}
+
+.noscrollbar {
+	overflow:hidden; 
+	overflow-x:hidden; 
+	overflow-y:hidden};
+}

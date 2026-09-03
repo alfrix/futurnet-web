@@ -1,0 +1,16 @@
+﻿a			{ text-decoration: none; }
+a:visited	{ color: #999999; }
+a:active	{ color: red; }
+a:hover		{ color: red; }
+
+img			{ 
+	border: 0px solid; 
+	margin: 0.5em;
+}
+
+body {
+	font-family: Arial,sans-serif;
+	margin: 2em;
+	background: #fafafa;
+	width: 90%;
+}
